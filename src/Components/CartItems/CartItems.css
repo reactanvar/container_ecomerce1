@@ -1,0 +1,164 @@
+.cartitems {
+  width: 100%;
+}
+
+.cartitems hr {
+  height: 1px;
+  background: #e2e2e23e;
+  border: 0;
+}
+
+.cartitems-format-main {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  color: #454545;
+  font-size: 18px;
+}
+
+.cartitems-format {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.carticon-product-icon {
+  display: block;
+  width: 100px;
+  object-fit: contain;
+}
+.remove_btn{
+  color: rgb(205, 8, 8);
+  background: none;
+  font-size: 15pt;
+}
+
+.cartitems-remove-icon {
+  width: 15px;
+  margin: 0px 40px;
+  cursor: pointer;
+}
+
+.cartitems-quantity {
+  width: 64px;
+  height: 50px;
+  border: 2px solid #ebebeb;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cartitems-down {
+  display: flex;
+  width: 50%;
+  margin: 100px 0px;
+}
+
+.cartitems-total {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  gap: 40px;
+}
+
+.cartitems-total-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.cartitems-total button {
+  width: 262px;
+  height: 58px;
+  outline: none;
+  border: none;
+  background: #357fff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cartitems-promocode {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cartitems-promocode p {
+  color: #555;
+}
+
+.cartitems-promobox {
+  width: 504px;
+  margin-top: 15px;
+  padding-left: 20px;
+  height: 58px;
+  background: #eaeaea;
+  border-radius: 5px;
+}
+
+.cartitems-promobox input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 330px;
+  height: 50px;
+}
+
+.cartitems-promobox button {
+  width: 170px;
+  height: 58px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+  .cartitems-format-main{
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .product_price{
+    display: none;
+  }
+  .cartitems-quantity{
+    border: none;
+  }
+  
+}
+
+@media screen and (max-width: 992px){
+  .product_name{
+    display: none;
+  }
+  .cartitems-format-main{
+    display: flex;
+  }
+    .carticon-product-icon{
+      scale: 1;
+      width: 150px !important;
+    } 
+}
+
+@media screen and (max-width: 1200px){}
+
+@media screen and (max-width: 1440px){}
